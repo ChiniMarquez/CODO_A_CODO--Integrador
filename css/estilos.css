@@ -1,0 +1,90 @@
+header {
+    background-image: url(./../img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    max-width: 2500px;
+}
+
+.barra {
+    background-color: rgb(60, 70, 70);
+    color: rgb(155, 148, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 22px;
+    margin: 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+article {
+    padding: 20px;
+}
+
+
+/*header h3 {
+    color: seashell;
+    font-size: 40px;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    padding: 200px;
+}*/
+
+
+/*header p {
+    color: seashell;
+    font-size: 1px;
+    text-align: end;
+    padding: 100px;
+    margin-right: 10px;
+}*/
+
+.text-end {
+    color: seashell;
+    font-size: 20px;
+}
+
+.material-icons {
+    position: initial;
+}
+
+
+/*.integrador {
+    background-color: rgb(54, 58, 58);
+    display: inline-block;
+}
+
+.list-inline {
+    display: inline;
+    text-align: right;
+    padding: 760px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: floralwhite;
+} */
+
+footer {
+    background-color: rgb(33, 54, 82);
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline;
+    text-align: center;
+    padding: 30px;
+    color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*border-radius: 5px (le da curvatura al bloque)
+margin: es un margen externp
+pading es un margen interno*/
+
+.col-md-6 {
+    background-color: rgb(44, 48, 48);
+    color: white;
+}
