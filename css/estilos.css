@@ -74,17 +74,25 @@ footer {
 footer ul li {
     display: inline;
     text-align: center;
-    padding: 30px;
+    padding: 27px;
     color: ghostwhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 
 
 /*border-radius: 5px (le da curvatura al bloque)
-margin: es un margen externp
+margin: es un margen externo
 pading es un margen interno*/
 
 .col-md-6 {
     background-color: rgb(44, 48, 48);
     color: white;
+}
+
+.form {
+    margin-left: 330px;
+}
+
+.card-text {
+    font-size: smaller;
 }
