@@ -6,15 +6,24 @@ header {
     max-width: 2500px;
 }
 
-.barra {
+nav {
+    top: 0px;
+}
+
+nav ol li {
     background-color: rgb(60, 70, 70);
     color: rgb(155, 148, 148);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 22px;
-    margin: 0px 0px;
-    position: absolute;
+    font-family: Verdana;
+    padding: 20px;
+    display: inline;
     top: 0px;
-    left: 50px;
+}
+
+.jumbotron {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
 }
 
 article {
@@ -40,14 +49,10 @@ article {
     margin-right: 10px;
 }*/
 
-.text-end {
-    color: seashell;
-    font-size: 20px;
-}
 
-.material-icons {
+/*.material-icons {
     position: initial;
-}
+}*/
 
 
 /*.integrador {
