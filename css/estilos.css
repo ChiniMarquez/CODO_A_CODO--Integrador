@@ -1,29 +1,41 @@
-header {
+/* .imagen {
     background-image: url(./../img/1.jpg);
+    
     background-position: center;
-    background-size: cover;
-    height: 650px;
-    max-width: 2500px;
+    filter: brightness(0.4);
+    width: 1500px;
+} */
+
+.back {
+    background-image: url(./../img/1.jpg);
+    background-color: rgba(0, 0, 0, 0.493);
+    background-position: center;
+    filter: brightness(0.9);
+    color: azure;
+    width: 1500px;
+    height: 600px;
 }
 
-header nav a {
-    padding-inline-end: 10px;
+nav a {
+    padding-inline-end: 50px;
     color: rgb(173, 167, 167);
     margin: 0px;
     text-align: end;
     text-decoration: none;
 }
 
-header nav a:hover {
+nav a:hover {
     color: #eeeeee
 }
 
-.jumbotron {
+
+/* .jumbotron {
     text-align: end;
     display: flex;
     justify-content: flex-end;
     padding: 20px;
-}
+    margin-top: 0px;
+} */
 
 article {
     padding: 20px;
