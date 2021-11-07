@@ -12,7 +12,7 @@
     background-position: center;
     filter: brightness(0.9);
     color: azure;
-    width: 1500px;
+    width: 1350px;
     height: 600px;
 }
 
@@ -46,6 +46,7 @@ footer {
     display: inline-block;
     margin-top: 10px;
     width: 100%;
+    bottom: 0px;
 }
 
 footer ul li {
@@ -61,15 +62,12 @@ footer ul li {
 margin: es un margen externo
 pading es un margen interno*/
 
-.col-md-6 {
-    background-color: rgb(44, 48, 48);
-    color: white;
-}
 
-.form {
+/* .form {
     margin-left: 330px;
-}
+} */
 
-.card-text {
+
+/* .card-text {
     font-size: smaller;
-}
+} */
